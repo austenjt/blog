@@ -11,7 +11,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: 'Resume',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/resume.svg').default,
     description: (
       <>
         This is my current resume.
@@ -20,7 +20,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Bitcoin',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/bwBitcoin.svg').default,
     description: (
       <>
         Bitcoin is the decentralized future of finance.
@@ -29,10 +29,10 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Gypsy Jazz',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/bwDjango.svg').default,
     description: (
       <>
-        The musical style of the Gypsy Jazz musical genre.
+        The Gypsy Jazz musical genre.
       </>
     ),
   },
